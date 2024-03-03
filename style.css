@@ -45,7 +45,6 @@ body {
 body {
   background: url("./images/sky.webp") no-repeat center fixed;
   background-size: 100% 100%;
-  border: 8px solid white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,6 +59,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: .5rem solid white;
 }
 
 .black-font {
@@ -451,7 +451,7 @@ hr {
   justify-content: center;
   row-gap: 10px;
   position: relative;
-  border-top: 0.3rem solid white;
+  border: 0.3rem solid white;
 }
 
 .footer .logo-container {
